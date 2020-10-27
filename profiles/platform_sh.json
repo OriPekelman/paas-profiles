@@ -13,17 +13,17 @@
   },
   "pricings": [
     {
-      "model": "fixed",
+      "model": "hybrid",
       "period": "daily"
     },
     {
-      "model": "fixed",
+      "model": "hybrid",
       "period": "monthly"
     },
     {
-      "model": "fixed",
+      "model": "hybrid",
       "period": "annually"
-    }    
+    }
   ],
   "quality": {
     "uptime": 99.99,
