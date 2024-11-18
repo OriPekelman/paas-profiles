@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'sinatra'
+gem 'sinatra', '>= 4.1.0'
 gem 'mongoid', '~> 4.0'
 gem 'iso_country_codes'
 gem 'rest-client'
