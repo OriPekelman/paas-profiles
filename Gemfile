@@ -12,7 +12,7 @@ gem 'geocoder'
 gem 'rmagick'
 gem 'activesupport'
 gem 'require_all'
-gem 'grape'
+gem 'grape', '>= 2.1.0'
 gem 'grape-entity'
 
 group :test do
@@ -25,6 +25,6 @@ group :test do
 end
 
 group :production do
-  gem 'unicorn'
+  gem 'unicorn', '>= 5.1.0'
   gem 'newrelic_rpm'
 end
